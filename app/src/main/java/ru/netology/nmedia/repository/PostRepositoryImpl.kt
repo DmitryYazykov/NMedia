@@ -15,9 +15,7 @@ import java.io.IOException
 import java.lang.RuntimeException
 import java.util.concurrent.TimeUnit
 
-class PostRepositoryImpl(
-    //private val dao: PostDao,
-) : PostRepository {
+class PostRepositoryImpl : PostRepository {
 
     // Настраиваю okhttp клиент
     private val client = OkHttpClient.Builder()
